@@ -1,0 +1,18 @@
+{
+  "name": "caliper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    //"launch-bank-public": "npx caliper launch manager --caliper-workspace . --caliper-benchconfig benchmarks/scenario/bank-public/config.yaml --caliper-networkconfig benchmarks/scenario/bank-public/network.json",
+    //"launch-bank-private-7-nodes": "npx caliper launch manager --caliper-workspace . --caliper-benchconfig benchmarks/scenario/bank-private/config.yaml --caliper-networkconfig benchmarks/scenario/bank-private/network-7nodes.json",
+    //"launch-bank-private-12-nodes": "npx caliper launch manager --caliper-workspace . --caliper-benchconfig benchmarks/scenario/bank-private/config.yaml --caliper-networkconfig benchmarks/scenario/bank-private/network-12nodes.json",
+    "launch-bank-private-17-nodes": "npx caliper launch manager --caliper-workspace . --caliper-benchconfig benchmarks/scenario/bank-private/config.yaml --caliper-networkconfig benchmarks/scenario/bank-private/network-17nodes.json",
+    //"launch-bank-private-22-nodes": "npx caliper launch manager --caliper-workspace . --caliper-benchconfig benchmarks/scenario/bank-private/config.yaml --caliper-networkconfig benchmarks/scenario/bank-private/network-22nodes.json"
+  },
+  "author": "marcio",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperledger/caliper-cli": "^0.5.0"
+  }
+}

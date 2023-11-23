@@ -1,0 +1,38 @@
+{
+    "caliper": {
+        "blockchain": "connector/index.js",
+        "command": {}
+    },
+    "ethereum": {
+        "url": "http://127.0.0.1:20000",
+        "contractDeployerAddress": "0x64bf6807fc6999ae4d82893b9df79f8c4caff214",
+        "contractDeployerAddressPrivateKey": "0x83a172cba650b1f04b6dde3bb564183e65e332b61d5b4e704373f24228b78306",
+        //"fromAddressSeed": "0x3f841bf589fdf83a521e55d51afddc34fa65351161eead24f064855fc29c9580",
+        "contractDeployerAddressPassword": "123456",
+        "transactionConfirmationBlocks": 24,
+        "privacy":  {
+            "group": {
+                "groupType": "legacy",
+                "privateFrom": "ZtZaAuLMTRoNAScSnPa93kAryugrLCDiax0LxPNInxg=",
+                "privateFor": [
+                    "ZtZaAuLMTRoNAScSnPa93kAryugrLCDiax0LxPNInxg=",
+                    "THNJyPL+ZkkB9hQlYtuPcVCYnLkbdpanTtFcmNYk1jE=",
+                    "eWMaCNZqjtQOPMNopqTB8XDkMYVxABtic5jH5CKsLBA=",
+                    "FQ+ll3Zwbq4e07aH0sxGpZnF6XzSVm8ma8cAdXWMbD4=",
+                    "7/JQ8ZvM9BrvgMD8oerf6EHbLbtWvpnFzjufuXSi4C4="
+                ]
+            }
+        },
+        "contracts": {
+            "bank": {
+                "path": "benchmarks/scenario/bank-private/src/ethereum/bank/bank.json",
+                "gas": {
+                    "open": 45000,
+                    "query": 100000,
+                    "transfer": 70000
+                },
+                "private": "group"
+            }
+        }
+    }
+}
