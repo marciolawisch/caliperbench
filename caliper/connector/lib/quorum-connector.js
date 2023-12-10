@@ -14,7 +14,7 @@
 
 'use strict';
 
-const EthereumHDKey = require('ethereumjs-wallet/hdkey');
+const hdkey = require('ethereumjs-wallet');
 const Web3 = require('web3');
 const Web3Quorum = require('web3js-quorum');
 const {ConnectorBase, CaliperUtils, ConfigUtil, TxStatus} = require('@hyperledger/caliper-core');
